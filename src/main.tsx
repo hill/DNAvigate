@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./index.css";
 
-import {
-  createMemoryRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { RouterProvider, createMemoryRouter } from "react-router-dom";
 import FileSystemView from "./views/FileSystemView";
 
 const router = createMemoryRouter([

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overscroll-behavior-y: none; /* Stop rubber banding */
+  overscroll-behavior-x: none; /* Stop rubber banding */
+  user-select: none; /* Disable text selection */
+}
