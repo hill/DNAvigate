@@ -25,6 +25,9 @@
         "useAltText": "off",
         "noSvgWithoutTitle": "off",
         "useKeyWithClickEvents": "off"
+      },
+      "suspicious": {
+        "noArrayIndexKey": "off"
       }
     }
   },

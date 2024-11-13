@@ -48,3 +48,8 @@ Represents sequence variation (e.g. SNPs, indels, structural variants, alternati
 ## PDB (protein data bank format)
 
 Representing 3d strucutres of molecules / proteins
+
+## Genbank File Format
+
+https://www.ncbi.nlm.nih.gov/genbank/samplerecord/
+

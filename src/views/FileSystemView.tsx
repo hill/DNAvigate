@@ -2,6 +2,7 @@ import { open } from "@tauri-apps/plugin-dialog";
 import { type DirEntry, readDir, readTextFile } from "@tauri-apps/plugin-fs";
 import { Button } from "antd";
 import { useEffect, useState } from "react";
+import { DNAIcon } from "../assets/icons";
 import { FilePicker } from "../components/FilePicker";
 
 export default function FileSystemView() {
@@ -84,6 +85,7 @@ export default function FileSystemView() {
   return (
     <div className="flex justify-between border-t border-neutral-200">
       <div className="w-60 border-r border-neutral-200 h-screen p-2">
+        <DNAIcon />
         <p className="text-sm">Files</p>
         <FilePicker entries={sortedEntries} onSelectFile={handlePick} />
         <Button size="small" onClick={handleFileOpen}>
